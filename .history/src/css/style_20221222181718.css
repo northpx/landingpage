@@ -1,0 +1,18 @@
+*{
+    
+}
+
+.header{
+    display: flex;
+}
+ .menu{
+
+ }
+ .menu-list .menu-item{
+    list-style-type: none;
+    display: flex;
+ }
+
+@media screen and (max-width:991px) {
+    
+}

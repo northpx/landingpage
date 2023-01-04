@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 100vh;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    padding: 50px 200px;
+}
+
+.logo{
+    width: 25%;
+}
+.menu-list{
+    width: 70%;
+    mar
+}
+.menu-list .menu{
+    display: flex;
+    list-style-type: none;
+}
+.menu-item{
+    margin-right: 20px;
+}
+.menu-search{
+    width: 5%;
+    margin-left: auto;
+}
+
+@media screen and (max-width:991px) {
+    
+}

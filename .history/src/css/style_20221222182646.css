@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    padding: 50px 200px;
+    position: relative;
+}
+
+.logo{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    width: 75vw;
+   display: flex;
+   align-items: center;
+}
+
+.menu-list{
+    mar
+}
+.menu-list .menu-item{
+   list-style-type: none;
+   display: flex;
+}
+
+.search{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+@media screen and (max-width:991px) {
+    
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+}
+
+.navbar{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    padding: 50px 200px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 15vw;
+    display: flex;
+    cursor: pointer;
+}
+.menu{
+    width: 75vw;
+   display: flex;
+   align-items: center;
+}
+
+.menu-list{
+    margin-left: auto;
+
+}
+.menu-list .menu-item{
+   list-style-type: none;
+   display: flex;
+}
+.item{
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(38, 37, 37);
+    cursor: pointer;
+}
+
+.search{
+    width: 10vw;
+    display: flex;
+    margin-left: auto;
+
+}
+
+.box-search{
+    margin-left: auto;
+    width: 60px;
+    height: 60px;
+    background: #fefefe;
+    color: rgb(45, 44, 44);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-solid.fa-bars{
+    display: none;
+    position: absolute;
+    font-size: 25px;
+    border: 1px solid thistle;
+    border-radius: 5px;
+    background-color: thistle;
+    padding: 10px;
+    top: 75px;
+    right: 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.header1{
+    margin-top: auto;
+    margin-bottom: 100px;
+}
+.section2{
+    
+    
+}
+
+
+@media screen and (max-width:991px) {
+    .menu-list{
+        display: none;
+    }
+    .menu{
+        align-items: center;
+    }
+    .search{
+        display: none;
+    }
+    .fa-solid.fa-bars{
+        display: block;
+        cursor: pointer;
+    }
+}

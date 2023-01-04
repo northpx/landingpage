@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    w100
+}
+
+.header{
+    width: 100vw;
+    height: 100;
+    display: flex;
+    padding: 50px 200px;
+}
+ .menu{
+
+ }
+ .menu-list .menu-item{
+    list-style-type: none;
+    display: flex;
+ }
+
+@media screen and (max-width:991px) {
+    
+}
